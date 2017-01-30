@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By looking at just the changes, it was easy to figure out where the bug was.  If the prior version was working properly, then the only place a bug could have been introduced from would have been from changes between the old and new versions.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Anytime you make a change that breaks something, you can easily figure out what that change was, and figure out how to fix it.  Using version control could reduce a fix from taking hours to only taking a few minutes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you can choose what changes you would like to commit, and this makes it easier to figure out where something went wrong.  The downside to this is that it can take up a lot of extra time to manually commit, and the developer is relied upon to not forget to commit changes.  With automatic commits, you never have to remember to commit, but it will be far more cluttered and harder to actually use for bug-finding purposes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It doesn’t make sense when working with a stand alone document or file to update a bunch of other files along with it.  You may have a folder with a bunch of documents in it for a certain class, but these files won’t be related to each other, and the changes definitely won’t have any affect on any other file.  Committing more files will take more time, so there is a speed / efficiency trade off.  Therefor it never makes sense to update multiple files for systems that don’t need them, like Google Docs.  On the other hand, software is almost always comprised of many different files that are connected to each other to produce an app.  Because of this, changes to a program often require changes in many different files within a project, so it makes sense to commit all of the files supporting a single app project.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use the log command to get a list of all the changes that have been committed, and the description of the change that was included in each commit.  You can use diff to see what changes were made.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that I can restore a working version, or easily find what I changed if I break something that is working gives me the confident to try new things, and add new features that I have little to no experience with.  This will help me learn a lot more, because I will be willing to take greater risks with my code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to help me keep track of my code, so that I can become a more confident developer.  This will help me learn more, and write programs with better features.  I also would like to use Git to share and download code with other developers to help assist in my learning process.
