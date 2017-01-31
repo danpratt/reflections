@@ -21,7 +21,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
     I would probably use a shared folder system on DropBox.  This would be less complicated than DropBox, but version-control would be much harder, and there would be a lot of risk of overwriting something uninententionally.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would make changes to separate branches if I were trying out something new, attempting major bug fixes, or any other major work that could ruin everything else.  I would also use seperate branches if I were working on a project with other people.
