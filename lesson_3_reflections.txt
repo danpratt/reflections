@@ -19,7 +19,7 @@ stored locally?
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    I would probably use a shared folder system on DropBox.  This would be less complicated than DropBox, but version-control would be much harder, and there would be a lot of risk of overwriting something uninententionally.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
