@@ -6,7 +6,7 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Having more control over version-control is part of the purpose of Git.  You may not want to share a commit on GitHub, because it isn't working, or you may have thousands of local commits that would be too much detail to push.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
