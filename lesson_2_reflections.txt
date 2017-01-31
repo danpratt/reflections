@@ -9,13 +9,23 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can see what changes have or haven't been added, and see what they are.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If I want to try out a new feature, or maybe completely redesign an interface.  If I am starting a major update, but would still like to release smaller updates / bug fixes, it may be good to keep multiple branches open so that you can address minor changes while working on a major change in another branch.
+
 How do the diagrams help you visualize the branch structure?
+
+	The same way that diagrams help you visualize anything else.  It's a lot easier to undestand how a river flows if you can see a picture of it.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+	Desired changes are automatically merged together between two branches.  Anything that can't be figured out automatically can be fixed manually.  We represent the diagram the way we do to easily be able to visually see what branches merged, and what changes happened along each one.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Always doing them manually makes sure that you are always merging the way you want to, but can be time consuming.  On the other hand, automatic merging is fast and convienient, but you give up the control over how the merge is handled, and this could introduce unintended bugs.
