@@ -8,10 +8,9 @@ automatically stay up-to-date with your remote repository?
 
     Having more control over version-control is part of the purpose of Git.  You may not want to share a commit on GitHub, because it isn't working, or you may have thousands of local commits that would be too much detail to push.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    A fork is a clone of someone else's project on GitHub that points back to their original project.  A clone is a copy of another project.  A branch is a split from the master branch, and doesn't effect changes on other branches unless they are merged.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
